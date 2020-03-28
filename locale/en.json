@@ -42,8 +42,11 @@
         },
         "preview": {
             "title": "Preview And Export",
-            "png": "Download As PNG",
-            "svg": "Donwload As SVG (Web Use)"
+            "transparent": "Transparent Background",
+            "border": "Show Border",
+            "scale": "Scale",
+            "format": "Format",
+            "download": "Download"
         },
         "style": {
             "button": "Style",
@@ -114,7 +117,7 @@
             "gz3": "Line 3",
             "gz1421": "Line 7/9/13/14/21",
             "gz6": "Line 6/Guangfo Line",
-            "gzgf": "Guangfo Line Phase 1",
+            "gzgf": "Guangfo Line Phase 2",
             "gz4": "Line 4",
             "gz5": "Line 5"
         },
