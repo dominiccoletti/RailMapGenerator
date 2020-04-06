@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a46319c7918a492ca84b9474da36a6e",
+    "revision": "065ab5f5d2ec01f4aac3530883f75fc0",
     "url": "/RailMapGenerator/index.html"
   },
   {
@@ -184,8 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RailMapGenerator/static/js/panelPreviewMTR.ddffb293.chunk.js"
   },
   {
-    "revision": "2f6351e1b69fb875b13d",
-    "url": "/RailMapGenerator/static/js/panelSave.d6bd4547.chunk.js"
+    "revision": "817fb90194a38536846f",
+    "url": "/RailMapGenerator/static/js/panelSave.b19585ef.chunk.js"
   },
   {
     "revision": "67a447a2f36b7fc9494c",
@@ -220,8 +220,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RailMapGenerator/static/js/railmapMTR.a8dd95cc.chunk.js"
   },
   {
-    "revision": "fc0df4c006dbd3baf2d4",
-    "url": "/RailMapGenerator/static/js/railmapSHMetro.ecb82628.chunk.js"
+    "revision": "05a0bdc57d5efe4345d1",
+    "url": "/RailMapGenerator/static/js/railmapSHMetro.18bc947c.chunk.js"
   },
   {
     "revision": "4d69a42b26ad3a8daac3",
@@ -232,8 +232,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RailMapGenerator/static/js/runinSHMetro.392ff8b1.chunk.js"
   },
   {
-    "revision": "b914f0589ff50f4d3651",
-    "url": "/RailMapGenerator/static/js/runtime-main.025b3531.js"
+    "revision": "6213443377bcbc2509d3",
+    "url": "/RailMapGenerator/static/js/runtime-main.1aaa8f1e.js"
   },
   {
     "revision": "68ba533231ebcc47a129",
