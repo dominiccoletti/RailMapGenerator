@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RailMapGenerator/precache-manifest.aea5aaf47a4799d79014c24b1295d109.js"
+  "/RailMapGenerator/precache-manifest.cde9a7ece585460bab63b635e296fee7.js"
 );
 
 self.addEventListener('message', (event) => {
