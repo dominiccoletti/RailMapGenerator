@@ -1,2 +1,0 @@
-(this["webpackJsonprail-map-generator"]=this["webpackJsonprail-map-generator"]||[]).push([[19],{59:function(a,e,t){"use strict";t.r(e);var i,r=t(3),s=t(2),n=[{id:"other",name:(i={},Object(r.a)(i,s.e.English,"Customise"),Object(r.a)(i,s.e.ChineseSimp,"\u81ea\u5b9a\u4e49"),Object(r.a)(i,s.e.ChineseTrad,"\u81ea\u8a02"),i),colour:"#aaaaaa"}];e.default=n}}]);
-//# sourceMappingURL=colours43.c0aea66a.chunk.js.map
