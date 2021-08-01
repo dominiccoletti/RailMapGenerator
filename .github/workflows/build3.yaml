@@ -1,0 +1,27 @@
+name: Build 3
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm ci
+
+      - name: Build
+        run: |
+          CI='' npm run build
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: test
+          path: |
+            build
