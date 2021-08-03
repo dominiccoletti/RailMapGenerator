@@ -18,25 +18,23 @@ if [ "$BRANCH" = "master" ]
 then
   # build with a normal version
   npm version patch -m "${APP_NAME}-%s release" --force || { echo "Release Error"; exit 1; }
-  export RMG_VER=$(node -p "require('./package.json').version")
+  echo "RMG_VER=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
 else
   # build with a hashed version
   VERSION=`node -p "require('./package.json').version"`
   GITHASH=$(git log -n 1 --pretty=%h)
-  export RMG_VER="$VERSION.$BRANCH.$GITHASH"
-  # git tag -a "${APP_NAME}-${RMG_VER}" -m "${APP_NAME}-${RMG_VER}"
+  echo "RMG_VER="$VERSION.$BRANCH.$GITHASH"" >> $GITHUB_ENV
 fi
 
 # build PRD and copy artifact to repository
 CI='' npm run build
-mkdir $UAT_REPO_NAME/$RMG_VER/
-cp -r build/ $UAT_REPO_NAME/$RMG_VER/PRD/
+cp -r build/ PRD/
 
 # build UAT and copy artifact to repository
 cat package.json | sed '2 s/RailMapGenerator/uat-rail-map-generator/' > package-new.json
 cp package-new.json package.json
 CI='' npm run build
-cp -r build/ $UAT_REPO_NAME/$RMG_VER/UAT/
+cp -r build/ UAT/
 
 # push tag and commit
 if [ "$BRANCH" = "master" ]
@@ -45,11 +43,5 @@ then
   git push origin "${APP_NAME}-${RMG_VER}"
 fi
 
-# upload artifacts
-cd $UAT_REPO_NAME/
-git add .
-git commit -m "Build RMG version $RMG_VER"
-git push --force
-
 # print version
-echo "Build Success: $RMG_VER"
+#echo "Build Success: $RMG_VER"

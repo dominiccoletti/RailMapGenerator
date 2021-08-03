@@ -17,13 +17,19 @@ jobs:
 
       - name: Build
         run: |
-          CI='' npm run build
-          echo "VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
-          echo $VERSION
+          chmod +x ./build.sh
+          ./build.sh
 
-      - name: Archive artifacts
+      - name: Archive artifacts (PRD)
         uses: actions/upload-artifact@v2
         with:
-          name: test_${{ env.VERSION }}
+          name: rmg-${{ env.RMG_VER }}
           path: |
-            build
+            PRD
+
+      - name: Archive artifacts (UAT)
+        uses: actions/upload-artifact@v2
+        with:
+          name: rmg-${{ env.RMG_VER }}-UAT
+          path: |
+            UAT
