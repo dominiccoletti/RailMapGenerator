@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Download artifacts
         run: |
-          echo ARTIFACT_URL=$(curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/wongchito/RailMapGenerator/actions/artifacts | node parse-artifact-list.js 3.9.8.test-actions.40d8640 UAT) >> $GITHUB_ENV
+          echo ARTIFACT_URL=$(curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/wongchito/RailMapGenerator/actions/artifacts | node ./parse-artifact-list.js ${{ github.event.inputs.version }} UAT) >> $GITHUB_ENV
           curl -H "Accept: application/vnd.github.v3+json" ${{ env.ARTIFACT_URL }}
 
       - name: Display structure
