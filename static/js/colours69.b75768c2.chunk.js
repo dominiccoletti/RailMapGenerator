@@ -1,2 +1,0 @@
-(this["webpackJsonprail-map-generator"]=this["webpackJsonprail-map-generator"]||[]).push([[33],{73:function(e,a,r){"use strict";r.r(a);var n=r(4),i=r(2),l=[{id:"yellow",name:Object(n.a)({},i.f.English,"Yellow Line"),colour:"#FABF00"},{id:"green",name:Object(n.a)({},i.f.English,"Green Line"),colour:"#0EAB4A"},{id:"bus",name:Object(n.a)({},i.f.English,"Bus"),colour:"#e9172a"},{id:"ferry",name:Object(n.a)({},i.f.English,"Ferry"),colour:"#82CEF3"}];a.default=l}}]);
-//# sourceMappingURL=colours69.b75768c2.chunk.js.map

@@ -7,8 +7,7 @@
         "all": "Show All",
         "destination": "Destination Info Sign",
         "runin": "Running-in Board",
-        "railmap": "Rail Map",
-        "indoor": "Indoor Map"
+        "railmap": "Rail Map"
     },
 
     "zoom": {
@@ -40,8 +39,7 @@
             "title": "Choose a Canvas",
             "destination": "Destination Info Sign",
             "runin": "Running-in Board",
-            "railmap": "Rail Map",
-            "indoor": "Indoor Map"
+            "railmap": "Rail Map"
         },
         "preview": {
             "title": "Preview And Export",
@@ -74,8 +72,7 @@
             "width": {
                 "destination": "Destination Sign Width",
                 "runin": "Running-in Board Width",
-                "railmap": "Rail Map Width",
-                "indoor": "Indoor Map Width"
+                "railmap": "Rail Map Width"
             },
             "height": "Canvas Height"
         },
@@ -189,7 +186,6 @@
             "interchange": {
                 "within": "Within-station Interchange",
                 "osi": "Out-of-station Interchange",
-                "osysi": "Out-of-system Interchange",
                 "note": "Please note that some combinations of interchanges may not be displayed properly.",
                 "add": "Add",
                 "osiName": "Edit OSI Station Name",
@@ -246,7 +242,7 @@
     },
 
     "info": {
-        "title": "Rail Map Generator",
+        "title": "Rail Map Generator V3",
         "notice": "Notice: Due to copyright, licensing and other legal restrictions, Rail Map Generator uses Noto Serif CJK and Vegur instead of MTRSung and Myriad Pro respectively for MTR-style maps. If you have obtained the license of either font, please feel free to edit the relevant code chunk of the exported SVG file.",
         "feedback": "Report Issues"
     },
