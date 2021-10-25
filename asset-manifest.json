@@ -199,8 +199,8 @@
     "panelDesignMTR.js.map": "/RailMapGenerator/static/js/panelDesignMTR.2cfa65ab.chunk.js.map",
     "panelDesignShmetro.js": "/RailMapGenerator/static/js/panelDesignShmetro.51a379c8.chunk.js",
     "panelDesignShmetro.js.map": "/RailMapGenerator/static/js/panelDesignShmetro.51a379c8.chunk.js.map",
-    "panelInfo.js": "/RailMapGenerator/static/js/panelInfo.445ca777.chunk.js",
-    "panelInfo.js.map": "/RailMapGenerator/static/js/panelInfo.445ca777.chunk.js.map",
+    "panelInfo.js": "/RailMapGenerator/static/js/panelInfo.60866253.chunk.js",
+    "panelInfo.js.map": "/RailMapGenerator/static/js/panelInfo.60866253.chunk.js.map",
     "panelLayout.js": "/RailMapGenerator/static/js/panelLayout.89baa9f7.chunk.js",
     "panelLayout.js.map": "/RailMapGenerator/static/js/panelLayout.89baa9f7.chunk.js.map",
     "panelLayoutGZMTR.js": "/RailMapGenerator/static/js/panelLayoutGZMTR.f85eb1c2.chunk.js",
@@ -231,8 +231,8 @@
     "runinGZMTR.js.map": "/RailMapGenerator/static/js/runinGZMTR.3bb19fea.chunk.js.map",
     "runinSHMetro.js": "/RailMapGenerator/static/js/runinSHMetro.0a88fa8d.chunk.js",
     "runinSHMetro.js.map": "/RailMapGenerator/static/js/runinSHMetro.0a88fa8d.chunk.js.map",
-    "runtime-main.js": "/RailMapGenerator/static/js/runtime-main.3a15407a.js",
-    "runtime-main.js.map": "/RailMapGenerator/static/js/runtime-main.3a15407a.js.map",
+    "runtime-main.js": "/RailMapGenerator/static/js/runtime-main.34dd1f6f.js",
+    "runtime-main.js.map": "/RailMapGenerator/static/js/runtime-main.34dd1f6f.js.map",
     "static/js/116.9a6f7071.chunk.js": "/RailMapGenerator/static/js/116.9a6f7071.chunk.js",
     "static/js/116.9a6f7071.chunk.js.map": "/RailMapGenerator/static/js/116.9a6f7071.chunk.js.map",
     "index.html": "/RailMapGenerator/index.html",
@@ -241,7 +241,7 @@
     "static/media/README.md": "/RailMapGenerator/static/media/README.3f60324c.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a15407a.js",
+    "static/js/runtime-main.34dd1f6f.js",
     "static/js/116.9a6f7071.chunk.js",
     "static/css/main.d6b3f681.chunk.css",
     "static/js/main.213bb6ee.chunk.js"
