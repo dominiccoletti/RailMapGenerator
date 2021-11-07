@@ -1,0 +1,2 @@
+(this["webpackJsonprail-map-generator"]=this["webpackJsonprail-map-generator"]||[]).push([[97],{248:function(a,t,e){"use strict";e.r(t),t.default=e.p+"static/media/README.3f60324c.md"}}]);
+//# sourceMappingURL=colours0.c4bb98ce.chunk.js.map
