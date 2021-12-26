@@ -6,6 +6,8 @@ A tool for generating railway maps and information panels in the styles of follo
 - MTR (Hong Kong)
 - Shanghai Metro (Shanghai)
 
+[![Release](https://github.com/dominiccoletti/RailMapGenerator/actions/workflows/release.yml/badge.svg)](https://github.com/dominiccoletti/RailMapGenerator/actions/workflows/release.yml)
+
 Make your own rail map on [GitHub Pages](https://wongchito.github.io/RailMapGenerator) | [GitLab Pages](https://chitowong.gitlab.io/RailMapGenerator) or get the latest offline desktop application at the [Release Page](https://github.com/wongchito/RailMapGenerator/releases).
 
 [Changelog](https://github.com/wongchito/RailMapGenerator/wiki/Change-Log)
