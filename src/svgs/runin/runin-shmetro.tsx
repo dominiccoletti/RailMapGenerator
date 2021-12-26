@@ -235,9 +235,6 @@ const PrevStn = (props: { stnIds: string[] }) => {
             )}
             <g transform={`translate(0, ${prevHintDy})`}>
                 <text className="rmg-name__zh" fontSize={22}>
-                    上一站
-                </text>
-                <text className="rmg-name__en" fontSize={12} dx={param.direction === 'l' ? -70 : 70}>
                     Past Stop
                 </text>
             </g>
@@ -265,9 +262,6 @@ const NextStn = (props: { stnIds: string[] }) => {
             )}
             <g transform={`translate(0, ${nextHintDy})`}>
                 <text className="rmg-name__zh" fontSize={22}>
-                    下一站
-                </text>
-                <text className="rmg-name__en" fontSize={12} dx={param.direction === 'l' ? 70 : -70}>
                     Next Stop
                 </text>
             </g>
