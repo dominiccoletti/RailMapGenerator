@@ -185,30 +185,24 @@ const InfoElements = () => {
         <>
             <g transform={`translate(${param.svgWidth.indoor / 2},50)`}>
                 <text textAnchor="middle" fontSize="30" className="rmg-name__zh">
-                    轨道交通{param.line_name[0]}运营线路示意图
+                    {param.line_name[0]}
                 </text>
             </g>
             <g transform={`translate(${param.svgWidth.indoor / 2},${param.svg_height - 300})`}>
-                <text textAnchor="middle" fontSize="18" className="rmg-name__zh" dx="-30" dy="230">
-                    友情提示：请留意您需要换乘线路的首末班时间，以免耽误您的出行，末班车进站前三分钟停售该末班车车票。
-                </text>
-                <text textAnchor="middle" fontSize="12" className="rmg-name__en" dx="10" dy="250">
+                <text textAnchor="middle" fontSize="18" className="rmg-name__en" dx="10" dy="250">
                     Please pay attention to the interchange schedule if you want to transfer to other lines. Stop selling tickets 3 minutes before the last train services.
                 </text>
                 <g transform="translate(-600,215)">
                     <rect x="-5" y="-25" width="100" height="70" fill="none" stroke="black" rx="5"></rect>
                     <line x1="28" x2="28" y1="-20" y2="40" stroke="black"></line>
-                    <text className="rmg-name__zh" dx="3" fontSize="18">图</text>
-                    <text className="rmg-name__zh" dx="3" dy="18" fontSize="18">例</text>
-                    <text className="rmg-name__en" dy="35" fontSize="8">legend</text>
+                    <text className="rmg-name__zh" dx="3" dy="18" fontSize="18">legend</text>
                     <use
                         transform="translate(45,10)"
                         xlinkHref="#int2_indoor_sh"
                         stroke="var(--rmg-theme-colour)"
                     />
-                    <text className="rmg-name__zh" dx="60" dy="10" fontSize="10">换乘站</text>
-                    <text className="rmg-name__en" dx="60" dy="20" fontSize="6">Interchange</text>
-                    <text className="rmg-name__en" dx="60" dy="30" fontSize="6">Station</text>
+                    <text className="rmg-name__en" dx="60" dy="20" fontSize="10">Interchange</text>
+                    <text className="rmg-name__en" dx="60" dy="30" fontSize="10">Station</text>
                 </g>
             </g>
         </>
