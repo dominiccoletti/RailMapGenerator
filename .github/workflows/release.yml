@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Configure Git
         run: |
-          git clone --depth 1 https://wongchito:${{ secrets.ACCESS_TOKEN }}@github.com/wongchito/${{ env.UAT_REPO_NAME }}.git
+          git clone --depth 1 https://dominiccoletti:${{ secrets.ACCESS_TOKEN }}@github.com/dominiccoletti/${{ env.UAT_REPO_NAME }}.git
           git config --global user.name "Release Agent"
           git config --global user.email rmg.release.agent@users.noreply.github.com
 
@@ -54,7 +54,7 @@ jobs:
         run: |
           cd ${{ env.UAT_REPO_NAME }}/
           mkdir GitLab-PRD
-          git clone --depth 1 https://chitowong:${{ secrets.GITLAB_ACCESS_TOKEN }}@gitlab.com/chitowong/${{ env.PRD_REPO_NAME }}.git GitLab-PRD/
+          git clone --depth 1 https://dominiccoletti:${{ secrets.GITLAB_ACCESS_TOKEN }}@gitlab.com/dominiccoletti/${{ env.PRD_REPO_NAME }}.git GitLab-PRD/
           rm -rf GitLab-PRD/*
           cp -r ${{ github.event.inputs.version }}/PRD/ GitLab-PRD/
           cd GitLab-PRD/
