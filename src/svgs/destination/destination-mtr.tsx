@@ -84,10 +84,10 @@ const InfoMTR = () => {
                 fill="var(--rmg-black)"
             >
                 <text className="rmg-name__zh" fontSize={90}>
-                    {(customisedMTRDestination.isLegacy ? lineName[0] : '') + '往' + destNames[0]}
+                    {(customisedMTRDestination.isLegacy ? lineName[0] : '') + 'to' + destNames[0]}
                 </text>
                 <text className="rmg-name__en" fontSize={45} dy={80}>
-                    {(customisedMTRDestination.isLegacy ? lineName[1] + ' ' : '') + 'to ' + destNames[1]}
+                    {(customisedMTRDestination.isLegacy ? lineName[1] + ' ' : '') + destNames[1]}
                 </text>
             </g>
         </g>

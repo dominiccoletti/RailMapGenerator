@@ -113,12 +113,12 @@ const Terminal = forwardRef((props: { destNames: string[][] }, ref: React.Ref<SV
                         >
                             {props.destNames[0].map((name, i) => (
                                 <text className="rmg-name__zh" fontSize={70} dy={i * -100 + 7} key={i}>
-                                    {'往' + name}
+                                    {'To' + name}
                                 </text>
                             ))}
                             {props.destNames[1].map((name, i) => (
                                 <text className="rmg-name__en" fontSize={25} dy={i * -100 + 40} key={i}>
-                                    {'To ' + name}
+                                    {name}
                                 </text>
                             ))}
                         </g>
